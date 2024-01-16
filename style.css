@@ -9,8 +9,12 @@ body {
     height: 100vh;
 }
 
-.header {
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    font-size: 4rem
 }
