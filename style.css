@@ -15,6 +15,18 @@ body {
     align-items: center;
 }
 
-.header {
-    font-size: 4rem
+h1 {
+    font-size: 8em
+}
+
+h2 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+li {
+    font-size: 2em;
 }
