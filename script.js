@@ -7,6 +7,9 @@ $(window).on('wheel', (e) => {
     navigateSections(e.originalEvent.deltaY); 
 });
 
+// TODO: doing fullscreen scrolling on mobile seems to scroll more than one section at a time
+// TODO: so not doing touch for now
+
 const navigateSections = (deltaY) => {
     if (deltaY > 0) {
         currentSection++;
