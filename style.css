@@ -54,12 +54,11 @@ p {
 li {
     font-size: 2em;
     line-height: 1.5;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 a {
     color: #999999;  /* Inherits the color of the parent element */
-    text-decoration: none;  /* Removes the underline */
 }
 
 .footer-container {
@@ -80,5 +79,5 @@ a {
     margin-bottom: 1em;
     font-size: 1.25em;
     line-height: 1;
-    font-weight: 100;
+    font-weight: lighter;
 }
