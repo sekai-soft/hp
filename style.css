@@ -10,8 +10,13 @@ body {
 
 .centered-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -27,6 +32,15 @@ p {
     font-size: 2em;
 }
 
+ul li {
+    line-height: 1; /* Adjust as required. This is a multiplier of the current font size. */
+    margin: 0.5em 0; /* Adjust as required. This adds 10px margin to the top and bottom of each list item. */
+}
+
 li {
     font-size: 2em;
+}
+
+article {
+    margin-left: 1rem;
 }
