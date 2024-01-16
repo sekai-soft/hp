@@ -10,6 +10,7 @@ body {
 
 .centered-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -20,27 +21,47 @@ body {
     align-items: center;
 }
 
-h1 {
+article {
+    margin-left: 1rem;
+}
+
+.header {
     font-size: 8em
 }
 
-h2 {
-    font-size: 4em;
+.sub-header {
+    font-size: 2em;
 }
 
 p {
     font-size: 2em;
-}
-
-ul li {
-    line-height: 1; /* Adjust as required. This is a multiplier of the current font size. */
-    margin: 0.5em 0; /* Adjust as required. This adds 10px margin to the top and bottom of each list item. */
+    line-height: 1.5;
+    font-weight: 100;
 }
 
 li {
     font-size: 2em;
+    line-height: 1.5;
+    font-weight: 100;
 }
 
-article {
-    margin-left: 1rem;
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-container article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container article * {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: 100;
 }
