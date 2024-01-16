@@ -48,13 +48,11 @@ article {
 p {
     font-size: 2em;
     line-height: 1.5;
-    font-weight: 100;
 }
 
 li {
     font-size: 2em;
     line-height: 1.5;
-    font-weight: lighter;
 }
 
 a {
@@ -79,5 +77,4 @@ a {
     margin-bottom: 1em;
     font-size: 1.25em;
     line-height: 1;
-    font-weight: lighter;
 }
