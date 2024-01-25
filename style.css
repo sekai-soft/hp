@@ -37,12 +37,13 @@ article {
     margin-right: 1rem;
 }
 
+/** font sizes for desktop **/
 .header {
     font-size: 8em
 }
 
 .sub-header {
-    font-size: 2em;
+    font-size: 4em;
 }
 
 p {
@@ -53,6 +54,48 @@ p {
 li {
     font-size: 2em;
     line-height: 1.5;
+}
+
+/** font sizes for tablet **/
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 6em
+    }
+    
+    .sub-header {
+        font-size: 3em;
+    }
+    
+    p {
+        font-size: 2em;
+        line-height: 1.5;
+    }
+    
+    li {
+        font-size: 2em;
+        line-height: 1.5;
+    }
+}
+
+/** font sizes for phone **/
+@media screen and (max-width: 414px) {
+    .header {
+        font-size: 3em
+    }
+    
+    .sub-header {
+        font-size: 2em;
+    }
+    
+    p {
+        font-size: 2em;
+        line-height: 1.2;
+    }
+    
+    li {
+        font-size: 2em;
+        line-height: 1.2;
+    }
 }
 
 a {
